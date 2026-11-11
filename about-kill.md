@@ -12,4 +12,7 @@ kill -l
 kill -l
 HUP INT QUIT ILL TRAP IOT BUS FPE KILL USR1 SEGV USR2 PIPE ALRM TERM STKFLT CHLD CONT STOP TSTP TTIN TTOU URG XCPU XFSZ VTALRM PROF WINCH POLL PWR SYS
 ```
-مثلا اینطوری برات نمایش میده 
+مثلا اینطوری برات نمایش میده
+اولین چیزی که باهاش کار میکنی اینه 
+سیگنال 15 
+این سیگنال خیلی ریلکس میاد به برنامه میگه لطفا هرچی داری رو ببند و موارد رو بزار کنار که توی این سیگنال یه قابلیت خوبی که هستش اینه که پروسه وقت داره فایل هاشو سیو کنه دسترسی های دیتابیسشو به بهترین حالت ممکن ببنده 
